@@ -1,0 +1,122 @@
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #2f4f4f;
+  padding: 25px 10px;
+  margin-top:-5px;
+  left:0px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+#mainscreen{
+	background-image: url("drops.jpeg");
+	text-align:center;
+	margin-top:-98px;
+	height:380px;
+	width:100%;
+	overflow:visible;
+	left:0px;
+}
+
+#mainscreen p{
+	color:white;
+	font-size: 80px;
+}
+
+.box {
+	overflow:auto;
+	background-image: url("redback.jpg");
+	width:100%;
+	height:390px;
+	position:relative;
+	border: 2px solid black;
+	margin: -90px 0px;
+	margin-bottom:-100px;
+	left:0px;
+}
+
+table,th,td {
+	border: 1px solid white;
+}
+
+table {
+	width: 100%;
+	height:100%;
+}
+
+table p{
+	color:white;
+	font-size:25px;
+}
+
+.button1{
+	background-color: orange;
+	color: white;
+	display:inline block;
+	text-align: left;
+	float:right;
+	margin-right:100px;
+	padding:5px 10px;
+	border: 5px outset yellow;
+	border-radius:8px;
+}
+
+.button2{
+	background-color: white;
+	color: white;
+	display:inline block;
+	text-align: right;
+	float:left;
+	margin-left:50px;
+	margin-bottom:50px;
+	padding:5px 10px;
+	border: 5px outset green;
+	border-radius:8px;
+}
+
+.button3{
+	background-color: white;
+	color: white;
+	display:inline block;
+	text-align: right;
+	float:right;
+	margin-right:50px;
+	margin-bottom:50px;
+	padding:5px 10px;
+	border: 5px outset green;
+	border-radius:8px;
+}
