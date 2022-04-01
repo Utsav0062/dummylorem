@@ -44,6 +44,8 @@
 
 #mainscreen{
 	background-image: url("drops.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	text-align:center;
 	margin-top:-98px;
 	height:380px;
